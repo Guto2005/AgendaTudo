@@ -13,17 +13,18 @@
     <main class="login">
         <div class="login-box">
             <div class="title-box">
-                <h2 class="title">Bem-vindo</h2>
-                <h3 class="title-description">Coloque o seu email e senha</h3>
+                <h2 class="title">Seja Bem-vindo</h2>
+                <h3 class="title-description">Acesse com seu e-mail e senha</h3>
             </div>
                 <form class="login-form" action="/login" method="POST">
                     <label for="email" class="login-label">Email</label>
-                    <input type="email" id="email" name="email" class="login-input" placeholder="Digite seu email" required>
+                    <input type="email" id="email" name="email" class="login-input" required>
 
                     <label for="password" class="login-label">Senha</label>
-                    <input type="password" id="password" name="password" class="login-input" placeholder="Digite sua senha" required>
+                    <input type="password" id="password" name="password" class="login-input" required>
                     
-                    <a href="forgot-password.php" class="forgot-password">Esqueceu sua senha?</a>
+                    <a href="create-account.php" class="link-option">Não tem uma conta? Cadastre-se</a>
+                    <a href="forgot-password.php" class="link-option">Esqueceu sua senha?</a>
 
                     <button type="submit" class="login-button">Entrar</button>
                 </form>
